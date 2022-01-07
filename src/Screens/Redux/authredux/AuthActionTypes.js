@@ -1,0 +1,8 @@
+export const AUTH_LOG_IN = 'AUTH_LOG_IN';
+export const AUTH_LOG_OUT = 'AUTH_LOG_OUT';
+export const GET_USER_DATA = 'GET_USER_DATA';
+export const GET_CART_DATA = 'GET_CART_DATA';
+export const ORDER_HISTORY_DATA = 'ORDER_HISTORY_DATA';
+export const ALL_PRODUCT_DATA = 'ALL_PRODUCT_DATA'
+export const DEFAULT_ADDRESS = 'DEFAULT_ADDRESS'
+export const GET_USER_ADDRESSES = 'GET_USER_ADDRESSES';
