@@ -25,7 +25,7 @@ export const OrderConfirmedScreen = ({navigation}) => {
               <Text style={ProductDetailStyl.topMsg}>ORDER CONFIRMED</Text>
               <Card.Cover style={{height:300}}
          source={{
-           uri: 'https://www.google.co.in/search?q=order+successful+message&tbm=isch&ved=2ahUKEwjxnann0Jr1AhUUHLcAHRQZCG0Q2-cCegQIABAA&oq=order+successful+&gs_lcp=CgNpbWcQARgBMgUIABCABDIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgQIABBDMgQIABAeUABYAGC9FmgAcAB4AIABtgGIAbYBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=mZHVYbHtFZS43LUPlLKg6AY&bih=600&biw=1366#imgrc=yPEQlvYJHb8y0M'
+           uri: ''
         }}></Card.Cover> 
               
               <Text style={ProductDetailStyl.midMsg}>

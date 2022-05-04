@@ -253,4 +253,24 @@ const EditProfileStyl = StyleSheet.create({
     size: 10,
     marginTop: hp('23%'),
   },
+  dateButton: {
+    color: 'black',
+    backgroundColor: 'white',
+    paddingVertical: wp('3%'),
+    paddingHorizontal: wp('6%'),
+    borderWidth: wp('0.3%'),
+    borderColor: 'gray',
+  },
+  dateHead: {
+    alignSelf: 'center',
+    fontSize: wp('6%'),
+    marginVertical: hp('2%'),
+    color: 'black',
+  },
+  dateView: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginVertical: hp('1%'),
+  },
 });

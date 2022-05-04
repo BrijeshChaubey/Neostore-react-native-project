@@ -46,7 +46,7 @@ export const CartCardComponent = ({...props}) => {
                 <AntDesign
                   name="minuscircle"
                   size={20}
-                  color="black"
+                  color="grey"
                   onPress={() => {
                     removeProduct();
                   }}

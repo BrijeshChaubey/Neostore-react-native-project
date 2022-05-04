@@ -27,6 +27,7 @@ import {ProfileViewScreen} from './components/ProfileView'
 import {EditAddressScreen} from './components/EditAddress';
 import {AddressCardComponent} from './components/AddressCard'
 import {DashboardProfileViewScreen} from './components/DasboardProfileView'
+import { Onboardingscreen } from './onBoarding';
 import { SplashScreen } from './SplashScreen';
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -70,6 +71,7 @@ const AuthStack = () => {
   return (
    <StackScreen.Navigator screenOptions={{headerShown: false}}>
           <StackScreen.Screen name="SplashScreen" component={SplashScreen} />
+          <StackScreen.Screen name="onBoarding" component={ Onboardingscreen } />
       <StackScreen.Screen
         name="Login"
         component={Login}

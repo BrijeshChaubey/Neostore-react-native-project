@@ -5,7 +5,7 @@ import {wp, hp} from './components/Dimension';
 export const SplashScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Login');
+      navigation.navigate('onBoarding');
     }, 1000);
   });
   return (
